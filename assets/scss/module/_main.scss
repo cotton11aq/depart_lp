@@ -1,75 +1,92 @@
 .main {
-  .sec {
-    &-mv {
-      background-color: #eaa852;
-      transform: skew(0deg, -10deg);
-      margin-top: -4rem;
-      padding-top: 4rem;
-      padding-bottom: 14rem;
-      position: relative;
+  &-mlogo {
+    background-color: #eaa852;
+    transform: skew(0deg, -10deg);
+    margin-top: -4rem;
+    padding-top: 4rem;
+    padding-bottom: 14rem;
+    position: relative;
+  }
+
+  &-logo {
+    padding-top: 4rem;
+    padding-left: 2rem;
+    transform: skew(0deg, 10deg);
+
+    img {
+      width: 8rem;
     }
+  }
 
-    &-logo {
-      padding-top: 4rem;
-      padding-left: 2rem;
-      transform: skew(0deg, 10deg);
+  &-artbord {
+    position: absolute;
+    width: 100%;
+    max-width: 50rem;
+    top: 6rem;
+    left: 50%;
+    transform: translateX(-50%);
 
-      img {
-        width: 8rem;
-      }
-    }
-
-    &-artbord {
-      position: absolute;
+    img {
       width: 100%;
-      max-width: 50rem;
-      top: 6rem;
-      left: 50%;
-      transform: translateX(-50%);
-
-      img {
-        width: 100%;
-      }
     }
+  }
 
-    &-human01 {
-      position: absolute;
-      top: 31rem;
-      left: 58%;
+  &-human01 {
+    position: absolute;
+    top: 31rem;
+    left: 58%;
+  }
+
+  &-human02 {
+    position: absolute;
+    top: 28rem;
+    left: 75%;
+    width: rem;
+
+    img {
+      width: 100%;
     }
+  }
 
-    &-human02 {
-      position: absolute;
-      top: 28rem;
-      left: 75%;
-      width: rem;
+  &-copy {
+    margin-top: 20rem;
+    padding: 0 2rem 0;
 
-      img {
-        width: 100%;
-      }
+    &_text {
+      font-size: 2rem;
+      font-weight: 900;
+      padding-top: 4rem;
     }
+  }
 
-    &-copy {
-      margin-top: 20rem;
+  &-copy01 {
+    max-width: 30rem;
+
+    img {
+      width: 100%;
     }
+  }
 
-    &-copy01 {
-      max-width: 30rem;
-      margin: 0 auto;
+  &-copy02 {
+    max-width: 30rem;
+    margin: 0 0 0 auto;
 
-      img {
-        width: 100%;
-      }
+    img {
+      width: 100%;
     }
+  }
 
-    &-copy02 {
-      max-width: 30rem;
-      padding-left: 10rem;
-      margin: 0 auto;
+  &-button {
+    text-align: center;
+    margin-top: 6rem;
 
-      img {
-        width: 100%;
-      }
+    a {
+      background-color: #43C1B6;
+      padding: 2rem 4rem;
+      color: #fff;
+      font-weight: bold;
+      border-radius: 5px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
     }
   }
 }
