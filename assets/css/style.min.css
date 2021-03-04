@@ -553,7 +553,6 @@ span {
   position: absolute;
   top: 28rem;
   left: 75%;
-  width: rem;
 }
 
 .main-human02 img {
@@ -561,8 +560,10 @@ span {
 }
 
 .main-copy {
-  margin-top: 20rem;
   padding: 0 2rem 0;
+  max-width: 40rem;
+  margin: 0 auto;
+  margin-top: 20rem;
 }
 
 .main-copy_text {

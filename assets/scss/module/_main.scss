@@ -41,7 +41,6 @@
     position: absolute;
     top: 28rem;
     left: 75%;
-    width: rem;
 
     img {
       width: 100%;
@@ -49,8 +48,10 @@
   }
 
   &-copy {
-    margin-top: 20rem;
     padding: 0 2rem 0;
+    max-width: 40rem;
+    margin: 0 auto;
+    margin-top: 20rem;
 
     &_text {
       font-size: 2rem;
